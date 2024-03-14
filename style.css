@@ -73,4 +73,13 @@ body{
 
 }
 /* Medi(a query */
-@media (ma-width:600px)
+@media(max-width:600px){
+#main{
+    float:none;
+    width:100%;
+}
+#aside{
+    float:none;
+    width:100%;
+}
+}
